@@ -1,0 +1,44 @@
+/* CSS reference: https://www.wix.com/velo/reference/$w/styling-elements-with-css */
+ 
+/* These CSS styles will be applied globally to every page of this site. Write your CSS here, e.g.: */
+
+/*  Change button background color to red: */
+/* .button {
+    background-color: red;
+} */
+
+
+.rich-text__text {
+  /* To learn more about CSS classes, visit https://support.wix.com/en/article/css-editing. Write your CSS here: */
+  color: rgb(108, 70, 170);
+  
+} 
+
+.glow {
+  -webkit-box-shadow:0px 0px 61px 8px rgba(157,255,46,0.53);
+  -moz-box-shadow: 0px 0px 61px 8px rgba(157,255,46,0.53);
+  box-shadow: 0px 0px 61px 8px rgba(157,255,46,0.53);
+}
+
+.bubble {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.hide {
+  display: none;
+  transform: all 2s;
+}
+
+.show {
+  opacity: 1;
+}
+
+.item {
+  filter: grayscale(1)
+}
+
+
+ .rich-text {
+   /* To learn more about CSS classes, visit https://support.wix.com/en/article/css-editing. Write your CSS here: */
+} 
